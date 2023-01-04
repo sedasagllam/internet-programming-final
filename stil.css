@@ -1,0 +1,262 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Nunito', sans-serif;
+	margin: 0;
+}
+#menu{
+	height: 80px;
+	padding: 0 20px;
+}
+#logo{
+	font-size: 30px;
+	line-height: 60px;
+	color: #003666;
+	float: left;
+}
+
+nav{
+	float: right;
+	line-height: 80px;
+}
+nav a:link{
+	text-decoration: none;
+	margin-right: 25px;
+	color: #003666;
+}
+nav a:hover{
+	border-bottom: 2px solid  #003666;
+}
+nav a:visited{
+
+}
+.ikon{
+	margin-right: 7px;
+	font-size: 16px;
+}
+
+
+#anasayfa{
+	height: 600px;
+	background-image: url("resim/arka.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+
+#black{
+	height: 600px;
+	background-color: black;
+	opacity:0.5;
+}
+#icerik{
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transform: translate(-60%,-10%);
+	color: white;
+	font-size: 15px;
+}
+#hakkimizda{
+	background-color: #f8f9fa;
+	padding: 50px;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: 600;
+}
+h3{
+	font-size: 55px;
+	color: #003666;
+	text-shadow: 0px 1px 1px black;
+	font-weight: 200;
+}
+.container{
+	width: 1200px;
+	height: auto;
+	margin:auto;
+}
+#sol{
+	float: left;
+	border-right: 3px solid #445c6e;
+	font-size: 15px;
+	width: 400px;
+	color: #445c6e;
+
+}
+#h5sol{
+	line-height: 1.6;
+	font-size: 15px;
+	font-weight: 600;
+}
+#sol ,#sag{
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+}
+span{
+	font-size: 40px;
+	margin-right: 9px;
+	line-height: 50px;
+	color: #003666;
+	font-weight: 600;
+	float: left;
+	padding: 15px;
+}
+#sag{
+	float: right;
+	width: 760px;
+	color: #999999;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 15px;
+	line-height: 1.8;
+	font-weight: 100;
+}
+.img-fluid{
+	max-width: 100%;
+	height: auto;
+}
+.mt100{
+	margin-top: 100px;
+}
+#pson{
+	color: #999;
+	letter-spacing: 1px;
+	font-size: 15px;
+	line-height: 1.8px;
+	margin-top: 30px;
+	font-weight: 100px;
+}
+#liste{
+	background-color: #fff;
+	padding: 0px;
+	text-align: center;
+	height: 700px;
+}
+.card{
+	width: 320px;
+	height: 400px;
+	border:1px solid #ddd;
+	padding: 0;
+	display: inline-block;
+}
+.baslikcard
+{
+	font-size: 15px;
+	color:#036666;
+}
+.cardp{
+	color:#888;
+}
+.card:hover{
+	border: 2px solid gray;
+}
+#iletisim{
+	background: url("http://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg");
+	background-size: cover;
+	padding: 50;
+	height: auto;
+	text-align: center;
+}
+#h3iletisim{
+	color: white;
+}
+#iletisimopak{
+	background: rgba(255, 255, 255, 0.2);
+	padding: 30px 20px;
+	border-radius: 5px;
+	margin-bottom:50px ;
+	height: 550px;
+}
+
+#formgrup{
+	width: 700px;
+	float: left;
+	height: 500px;
+	text-align: left;
+}
+#solform{
+	width: 50%;
+	float: left;
+	padding-right: 5px;
+}
+#sagform{
+	width: 50%;
+	float: right;
+	padding-left: 5px;
+}
+.form-kontrol{
+	width: 100%;
+	padding: 10px;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #495057;
+	background-color: white;
+	margin: 10px;
+	border-radius: 5px;
+	border-radius: 1px solid #ced4da;
+}
+textarea{
+	font-family: arial;
+}
+input[type="submit"]{
+	cursor: pointer;
+	background-color:gray ;
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding: 10px 30px;
+	color: white;
+	border: 2px solid white;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#adres{
+	padding: 20px;
+	text-align: left;
+}
+#adresbaslik{
+	font-size: 30px;
+	color: white;
+}
+.adresp{
+	
+	font-size: 15px;
+	letter-spacing: 1.5px;
+}
+#sef{
+	background-color: #003666;
+	padding: 50px;
+	height: 850px;
+	text-align: center;
+
+}
+ #sefh3{
+ 	color: white;
+ }
+ .sutun-sol-sag{
+ 	width: 380px;
+ 	float: left;
+ 	padding: 50px;
+ }
+
+ .oval{
+ 	border-radius: 50%;
+ }
+ .sefisim{
+ 	color:white;
+ 	font-size: 25px;
+ 	margin-bottom: 12px;
+ }
+ .sefp{
+ 	color:#888;
+ 	font-size: 20px;
+}
+.sutun{
+	width: 380px;
+ 	float: left;
+ 	padding: 10px;
+}
